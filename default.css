@@ -1,0 +1,179 @@
+* html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 75%;
+	padding-bottom: 30px;
+	color: #ffefd5;
+	padding-top: 40px;
+	background-repeat: repeat-x;
+	font-family: Cursive;
+	background-color: #00003d;
+}
+
+strong {
+	text-transform: uppercase;
+}
+
+h1 {
+	margin-left: -999999px;
+	line-height: 0px;
+}
+
+.logoSWF {
+	margin-left: 80px;
+}
+
+.menu {
+	line-height: 2.3em;
+	margin-bottom: 0px;
+}
+
+.menu li {
+	background-image: none;
+	display: inline;
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li.activo a {
+	background-color: #2a3867;
+	border: solid 1px white;
+	border-bottom-color: #2a3867;
+	position: relative;
+	top: -4px;
+}
+
+.menu li.inactivo a
+{
+	color: #808080;
+}
+
+.menu li a {
+	color: #f0fff0;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	padding: 9px 10px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color:#ff9834;
+}
+
+.contenedor {
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.home {
+	font-family: Garamond;
+	background-color:Transparent;
+	padding: 20px;
+	border: solid 1px white;
+	min-height: 480px;
+	height: auto !important; 
+	height: 480px;
+	width: 90%;
+}
+
+.text {
+	background-image: none;
+	background-color: #2a3867;
+}
+
+.text a, a:visited, a:hover {
+	color: #ffefd5;
+}
+.home h2
+{
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.home p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.home p em {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.home ul {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+.home ul li {
+	font-size: 15px;
+	font-weight: normal;
+	padding-left: 15px;
+	background: url(images/bullet-black.gif) 0em 0.1em no-repeat;
+}
+
+.home.foto {
+	font-style: normal;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.home.foto span {
+	font-family: Times New Roman;
+	display: block;
+}
+
+.home table caption {
+	font-weight: bolder;
+	line-height: 1.8em;
+	font-size: 1.8em;
+}
+
+.home table td
+{
+	font-family: 'Monotype Corsiva' , 'Times New Roman';
+	padding: 6px 15px 3px 8px;
+}
+
+#servicios li span {
+	display:block;
+}
+
+.pie {
+	font-weight: bolder;
+	border-top: solid 1px #ffefd5;
+	margin-top: 10px;
+	text-align: center;
+	clear:both;
+}
+
+.mySlides {display:none}
+.w3-content{max-width:980px;margin:auto}.w3-rest{overflow:hidden}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+/************************** DATOS DE MONTESOFT **************************/
+.montesoft {
+	background-position: 110px;
+	background-repeat: no-repeat;
+	padding-top: 24px;
+	font-weight: bold;
+	height: 63px;
+	width: 180px;
+}
+
+.montesoft a, .montesoft a:link, .montesoft a:visited {
+	color: #df0000;
+	text-decoration: none;
+}
